@@ -1,8 +1,13 @@
-@font-face {
-  font-family: "Rubik Mono One";
-  src: url(../fonts/RubikMonoOne-Regular.ttf) format("truetype");
-  font-display: swap;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #040404;
+}
+
 @font-face {
   font-family: "Courier Prime";
   src: url(../fonts/CourierPrime-Regular.ttf) format("truetype");
@@ -10,9 +15,19 @@
 }
 body {
   font-family: "Courier Prime", monospace;
+  font-size: medium;
+  color: #abb7ab;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Rubik Mono One", sans-serif;
   text-transform: uppercase;
+  color: #70ce90;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
 }
