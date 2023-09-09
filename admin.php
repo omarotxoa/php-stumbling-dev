@@ -1,12 +1,8 @@
 <?php
-$title = 'Stumbling Dev';
+$title = 'Admin Dashboard';
 require_once 'header.php';
 ?>
-
-
 <body>
-
-<h1>Stumbling Dev</h1>
-    
+    <h1>Admin Dashboard</h1>
 </body>
 </html>
