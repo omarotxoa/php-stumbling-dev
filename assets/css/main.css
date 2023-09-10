@@ -8,6 +8,24 @@ body {
   background-color: #040404;
 }
 
+.box {
+  padding: 1em;
+  border: 1px solid #70ce90;
+  color: #abb7ab;
+}
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
 @font-face {
   font-family: "Courier Prime";
   src: url(../fonts/CourierPrime-Regular.ttf) format("truetype");
