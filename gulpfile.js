@@ -6,5 +6,10 @@ function css() {
         .pipe(sass().on('error', sass.logError))
         .pipe(dest('assets/css/'));
 }
-
+function admin() {
+    return src('admin/assets/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(dest('admin/assets/'));
+}
 exports.default = css;
+exports.admin = admin;
